@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+
+
+  <title>Главная</title>
+ 
+
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapp">
+        <div class="header__home">
+          <a href="#" class="header__logo">
+            <img src="./img/logo.png" alt="логотип">
+          </a>
+          <!-- header__logo -->
+          <div class="header__input">
+            <input type="text" placeholder="Поиск семинаров">
+            <a href="#"><img src="./img/input_img.png" alt="поиск"></a>
+          </div>
+        </div>
+        <div class="header__form">
+          <button class="header__form--enter">вход на сайт</button>
+          <button class="header__form--reg">регистрация</button>
+        </div>
+      </div>
+      <!-- header__wrapp -->
+    </div>
+    <!-- /.container -->
+      <div class="header__nav">
+        <div class="container">       
+        <nav>
+          <ul>
+            <li><a href="#">
+              Направления и рынки   </a></li>
+            <li><a href="#">Спикеры</a></li>
+            <li><a href="#">Места проведения</a></li>
+            <li><a href="#">Обратная связь</a></li>
+            <li><a href="#">Индивидуальные программы</a></li>
+            <li><a href="#">Архив</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- container -->
+      </div>
+  </header>
+  <!-- /.header -->
+  <div class="body__wrapp">
+    <div class="container">
+        <ul class="breadcrumb">
+          <li><a href="#">Главная страница </a></li>
+          <li><a href="#">Места проведения</a></li>
+          <li class="active">Главный зал Московской биржи</li>
+        </ul>
+      <section class="events">
+        <h2 class="events__title">Главный зал Московской биржи</h2>
+        <div class="events__wrapp">
+          <div class="events__slider">
+            <div class="events__links">
+              <a href="#" onclick="openbox('box1'); return false">
+                <img src="./img/rectangle_11_1257.png" alt="картинка">
+                </a>
+                <a href="#" onclick="openbox('box2'); return false">
+                <img src="./img/rectangle_12_copy_1259.png" alt="">
+                </a>
+                <a href="#" onclick="openbox('box3'); return false">
+                  <img src="./img/rectangle_12_copy_2_1260.png" alt="картинка">
+                </a>
+                <a href="#" onclick="openbox('box4'); return false">
+                  <img src="./img/rectangle_12_copy_3_1261.png" alt="картинка">
+                </a>
+            </div>
+            
+
+            <div class="block-of-text" id="box1";"><img src="./img/rectangle_11_1257.png" alt="картинка">
+            </div>
+            <div class="block-of-text" id="box2" style="display: none;">
+              <img src="./img/rectangle_12_copy_1259.png" alt="">
+            </div>
+            <div class="block-of-text" id="box3" style="display: none;">
+              <img src="./img/rectangle_12_copy_2_1260.png" alt="картинка">
+            </div>
+            <div class="block-of-text" id="box4" style="display: none;">
+              <img src="./img/rectangle_12_copy_3_1261.png" alt="картинка">
+            </div>
+
+
+          </div>
+          <!-- events__slider -->
+          <div class="events__location">
+            <div class="events__location--row">
+              <span class="events__location--black">Адрес:</span>
+              <span>
+                г. Москва, Большой Кисловский пер., д. 13</span>
+            </div>
+            <div class="events__location--row">
+              <span class="events__location--black">Телефон:</span>
+              <span>+7 (495) 232-3363</span>
+            </div>
+
+            <div class="events__location--row">
+              <span class="events__location--black">Email:</span>
+              <span>pr@moex.com</span>
+            </div>
+            <div class="events__location--row">
+              <span class="events__location--black">Краткое описание:</span>
+              <p>Основная идея социально–политических взглядов К.Маркса была в том, что политическая коммуникация символизирует антропологический элемент политического процесса. Важным для нас является указание Маклюэна на то, что феномен толпы представляет собой идеологический социализм, указывает в своем исследовании К.Поппер.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location">
+        <p>Схема проезда:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.183960845024!2d37.604222315930585!3d55.75530648055407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a4e499e6563%3A0xc6276bae85dfe214!2z0JHQvtC70YzRiNC-0Lkg0JrQuNGB0LvQvtCy0YHQutC40Lkg0L_QtdGALiwgMTMsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMjUwMDk!5e0!3m2!1sru!2s!4v1588593920776!5m2!1sru!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </section>
+
+      
+
+    </div>
+    <!-- container -->
+</div>
+<!-- body__wrapp -->
+
+  
+  <footer class="footer">
+    <div class="footer__border"></div>
+    <div class="container">
+      <div class="footer__wrapp">
+        <div class="footer__data">
+          <div class="footer__tel">
+            <img src="./img/phone_2_240.png" alt="Телефон">
+            <span>+7 800 400 60 45</span>
+          </div>
+          <div class="footer__adress">
+            <img src="./img/pointer_239.png" alt="Адрес">
+            <span>Text: Главный офис PRTU <br> Москва, ул. Пионеров 21, оф. 78;</span>
+          </div>
+          
+        </div>
+        <div class="footer__nav">
+          <p>Все курсы</p>
+          <p>Блог</p>
+          <p>Преподователи</p>
+          <p>Кейсы</p>
+          <p>Карта сайта</p>
+        </div>
+        <div class="footer__events">
+          <p>События</p>
+          <p>Семинары</p>
+        </div>
+        <div class="footer__logo">
+          <div class="footer__img">
+            <img src="./img/shape_1_229.png" alt="Логотип" >
+
+          </div>
+          
+          <p>© 2017 PRTU Международная школа <br>  Интернет-маркетинга №1 в Мокве</p>
+        </div>
+      </div>
+      <!-- footer-wrapp -->
+  </div>
+  <!--container  -->
+  </footer>
+  <!-- /.footer -->
+
+
+
+<script type="text/javascript" src="./js/index.js">
+  
+</script>
+
+ 
+</body>
+
+
+
+
+
+
+</html>
